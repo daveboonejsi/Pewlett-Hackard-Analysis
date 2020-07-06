@@ -8,7 +8,7 @@ First all the tables were defined using SQL and the data imported from CSV in th
 
 Entity relation diagram (ERD):
 
-![](ERD PH-Analysis.png)
+![](ERD-PH-Analysis.png)
 
 ### Part two: query the RDBMS to identify employees of retirement age by department and title, and those eligible for the mentorship program.
 We created several queries by (INNER) joining tables and outputting fields from the joined data.  We used WHERE to select data by certain criteria (e.g. age based on employee birth date and hire date).  We then used a query within a query to exclude duplicates (using the PARTITION command). We then downloaded the query results to .csv files (in the data sub-directory). (Deliverable 1 = unique_titles.csv, Challenge.sql).
