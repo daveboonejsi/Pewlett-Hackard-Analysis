@@ -6,7 +6,7 @@ Analyze the PewLett-Hackard employee data to determine who is elibible for retir
 ### Part One: create and link the tables in the PostgreSQL database 
 First all the tables were defined using SQL and the data imported from CSV in the RDBMS.  We had tables for employees, departments, employees by departments, employee salaries, employee titles, and department managers.
 
-Entity relation diagram (ERD:
+Entity relation diagram (ERD):
 
 ![](ERD PH-Analysis.png)
 
